@@ -1,0 +1,65 @@
+.hero::before{
+    position: absolute;
+    top: 0;
+    left: calc(50% - 750px);
+    width: 750px;
+    height: 800px;
+    z-index: -1;
+    background-image: url(../img/kuchuk.svg);
+    background-repeat: no-repeat;
+    background-size: 750px 800px;
+    content: "";
+}
+
+.hero::after {
+    position: absolute;
+    top: 410px;
+    left:calc(70% + 170px);
+    width: 319px;
+    height: 430px;
+    background-image:url(../img/hero-left1.svg);
+    background-repeat: no-repeat;
+    background-size: 319px 430px;
+    content: "";
+}
+
+.hero__inner {
+    width: 608px;
+    margin-left: auto;
+    margin-top: 153px;
+}
+
+.hero__title {
+    width: 608px;
+    font-weight: 700;
+    font-size: 70px;
+    line-height: 64px;
+    color: #333333;
+}
+
+.hero__text {
+    padding-bottom: 38px;
+    width: 445px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    color: #949494;
+}
+
+.hero__link {
+    padding: 15px 48px 16px 47px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+    text-decoration: none;
+    color: #FFFFFF;
+    background: #333333;
+    border-radius: 3px;
+
+    &:hover {
+        opacity: 0.8;
+    }
+    &:active {
+        opacity: 0.6;
+    }
+}

@@ -1,0 +1,74 @@
+.course {
+    position: relative;
+    margin-top: 235px;
+    margin-bottom: 216px;
+    background-color: #78C0DE;
+    &::before {
+        position: absolute;
+        top: -111px;
+        left: calc(50% + 10px);
+        width: 613px;
+        height: 510px;
+        background-image: url(../img/course__img.svg);
+        background-repeat: no-repeat;
+        background-size: 700px 706px;
+        content: "";
+    }
+    
+}
+
+.course__inner {
+    padding-top: 90px;
+    padding-bottom: 88px;
+    padding-left: 170px;
+  
+}
+
+.course__title {
+    padding-bottom: 32px;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+}
+
+.form__input {
+    padding: 18px 147px 12px 22px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    border: none;
+    align-items: center;
+    color: #949494;
+    background: #FFFFFF;
+    border-radius: 5px;
+    &:hover {
+        border: 1px solid #FF6347;
+    }
+    &:active {
+        border: 1px solid #90EE90;
+    }
+}
+
+.form__button {
+    display: inline-block;
+    margin-left: 21px;
+    padding: 17px 53px 13px 51px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+    background: #333333;
+    border-radius: 3px;
+    border: none;
+    &:hover {
+        opacity: 0.8;
+    }
+    &:active {
+        opacity: 0.6;
+    }
+}
